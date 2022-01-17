@@ -1,0 +1,95 @@
+body {
+    max-width: 2000px;
+}
+
+// - - - - - HEADER - - - - - //
+header {
+    .sp-logo-div {
+        width: 70%;
+    }
+    nav {
+        padding-bottom: 15px;
+        padding-top: 25px;
+
+        li {
+            font-size: 17px;
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+        }
+        .dropdown-item {
+            margin: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-shadow: 1px 1px 0px #dad3cb;
+            background-color: rgba(255, 255, 255, 0.886);
+        }
+        .services-item:hover > .dropdown-content {
+            display: block;
+        }
+    }
+}
+
+// - - - - - HOME - - - - - //
+.startpage-section {
+    .sp-info-article {
+        p {
+            font-size: 15px;
+            rgin: 0px auto;
+        }
+    }
+}
+
+// - - - - - PORTFOLIO - - - - - //
+.portfolio-page {
+    .portfolio-article {
+        width: 45%;
+
+        p {
+            font-size: 15px;
+        }
+    }
+}
+
+// - - - - - SERVICES / WEDDING - - - - - //
+.services {
+    line-height: 1.5;
+}
+.wedding-page {
+    width: 90%;
+}
+.wed-page {
+    width: 80%;
+
+    .wed-text {
+        font-size: 1.1em;
+    }
+}
+.wedding-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .wedding-article {
+        width: 46%;
+        height: 700px;
+    }
+}
+.wedding-evt {
+    display: flex;
+}
+.wedding-article-evt {
+    width: 32%;
+}
+.wedding-btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wedding-readmore-btn {
+    position: absolute;
+    bottom: 15px;
+}

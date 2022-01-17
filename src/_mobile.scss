@@ -1,0 +1,528 @@
+body {
+    margin: 0px auto;
+    padding: 0px;
+    max-width: 2000px;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #7b5959;
+    letter-spacing: 3px;
+    margin: 30px;
+    margin-bottom: 20px;
+}
+p {
+    color: #5e5e5e;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.8em;
+}
+// - - - - - HEADER - - - - - //
+header {
+    .sp-logo-div {
+        height: 250px;
+        width: 100%;
+        background-image: url('/img/Eventmakarna.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0px auto;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        list-style: none;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eee3d7;
+
+        li {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            color: #b8a590;
+            letter-spacing: 2px;
+            padding-right: 10px;
+            padding-left: 10px;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            &:hover {
+                color: #69625d;
+            }
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+        }
+        .dropdown-item {
+            margin: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-shadow: 1px 1px 0px #dad3cb;
+            background-color: rgba(255, 255, 255, 0.886);
+        }
+        .services-item:hover > .dropdown-content {
+            display: block;
+        }
+    }
+}
+// - - - - - HOME - - - - - //
+.startpage-section {
+    .sp-image-article {
+        height: auto;
+    }
+    .sp-image {
+        width: 100%;
+        height: auto;
+    }
+    .sp-info-article {
+        text-align: center;
+        background-color: rgb(255, 254, 254);
+        margin: 0px;
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 25px;
+            text-transform: uppercase;
+            color: rgb(173, 145, 142);
+            letter-spacing: 3px;
+            padding-top: 30px;
+            margin: 0px;
+        }
+        p {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.8em;
+            letter-spacing: 1px;
+            color: #242424;
+            width: 70%;
+            padding: 30px;
+            margin: 0px auto;
+        }
+    }
+}
+
+// - - - - - PORTFOLIO - - - - - //
+.portfolio-page {
+    width: 100%;
+
+    .portfolio-section {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px auto;
+    }
+    .portfolio-article {
+        width: 85%;
+        margin: 20px auto;
+    }
+    .portfolio-img {
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        background-position: center;
+        margin-bottom: 0px;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+    #styledPhotoShoot {
+        background-image: url('../photos/portfolio/228A8119.jpg');
+    }
+    .portfolio-text {
+        width: 100%;
+        margin: 0px;
+        background-color: #fff3eb;
+        h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #b1a18e;
+            text-align: center;
+            padding: 20px;
+            margin: 0px;
+        }
+        p {
+            font-style: italic;
+            padding: 15px;
+            margin: 0px;
+            color: #5b5b5b;
+        }
+        .portfolio-names {
+            text-align: right;
+        }
+    }
+}
+.portfolio-photoshootinfo {
+    text-align: center;
+    p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    a {
+        color: #5e5e5e;
+        &:hover {
+            color: #5e5e5e89;
+        }
+    }
+}
+.images1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.images1width {
+    width: 50%;
+    margin: 5px;
+}
+.images2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.images2width {
+    width: 33%;
+    margin: 5px;
+}
+.images3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.images3width {
+    width: 25%;
+    margin: 5px;
+}
+
+.wedding-page {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.wed-page {
+    width: 90%;
+    margin: 35px auto;
+    border: 1px solid #ebdfda;
+    h2 {
+        font-size: 1em;
+    }
+    .wed-text {
+        margin: 30px;
+        font-size: 0.8em;
+    }
+    p {
+        margin: 10px 20px;
+    }
+}
+.wedding-section {
+    margin-top: 30px;
+    height: auto;
+
+    .wedding-article {
+        margin: 10px;
+        border: 1px solid #eedada;
+        position: relative;
+        height: 680px;
+
+        .wedding-img-con {
+            width: 100%;
+            height: 350px;
+            background-image: url('../photos/portfolio/228A8212.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+            background-position: center;
+            margin-top: 15px;
+        }
+        .wedding-img-wee {
+            width: 100%;
+            height: 350px;
+            background-image: url('../photos/portfolio/228A8071.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+            background-position: center;
+            margin-top: 15px;
+        }
+        .wedding-img-yea {
+            width: 100%;
+            height: 350px;
+            background-image: url('../photos/portfolio/228A7918.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+            background-position: center;
+            margin-top: 15px;
+        }
+        .wedding-img-dec {
+            width: 100%;
+            height: 350px;
+            background-image: url('../photos/startpage/228A8059.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+            background-position: center;
+            margin-top: 15px;
+        }
+        .wedding-img-tm {
+            width: 100%;
+            height: 350px;
+            background-image: url('../photos/startpage/228A8022.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+            background-position: center;
+            margin-top: 15px;
+        }
+        .wedding-img-rad {
+            width: 100%;
+            height: 350px;
+            background-image: url('../photos/portfolio/228A7913.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+            background-position: center;
+            margin-top: 15px;
+        }
+        h4 {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #b1a18e;
+            margin-bottom: 10px;
+        }
+        h5 {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 14px;
+            letter-spacing: 1px;
+            color: #7e6060;
+            margin-top: 0px;
+        }
+        .wedding-text {
+            p {
+                width: 70%;
+                margin: 10px auto;
+                letter-spacing: 1px;
+                font-size: 15px;
+            }
+        }
+        .wedding-btn-div {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .wedding-readmore-btn {
+            position: absolute;
+            bottom: 15px;
+            border: 0px;
+            outline: none;
+            padding: 15px;
+            background-color: rgb(193, 167, 167);
+            color: #fff;
+            font-family: 'Playfair Display', serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: all 0.3 ease;
+
+            &:hover {
+                background-color: rgb(169, 127, 124);
+            }
+        }
+    }
+}
+.wedding-article-evt {
+    margin: 10px;
+    border: 1px solid #eedada;
+    h4 {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #b1a18e;
+        margin-bottom: 10px;
+    }
+    h5 {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #7e6060;
+        margin-top: 0px;
+    }
+    .wedding-text {
+        p {
+            width: 70%;
+            margin: 10px auto;
+            letter-spacing: 1px;
+            font-size: 15px;
+        }
+    }
+}
+// - - - - - CONTACT PAGE - - - - - //
+.contact-page {
+    width: 100%;
+
+    .contact-article {
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+        background-color: #fff9f3;
+    }
+    .form-sm-container {
+        width: 100%;
+        p {
+            padding: 20px;
+        }
+    }
+    input {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 5px;
+        border: 1px solid #ceb0b0;
+        outline: 0;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+    }
+    button {
+        margin: 20px auto;
+        border: 0px;
+        outline: none;
+        padding: 10px 15px;
+        background-color: rgb(193, 167, 167);
+        color: #fff;
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: all 0.3 ease;
+
+        &:hover {
+            background-color: rgb(169, 127, 124);
+        }
+    }
+}
+#aboutImgContainer {
+    width: auto;
+    height: 500px;
+    background-image: url('../photos/imgAlinaElin/228A8348.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about-us-page {
+    width: 100%;
+    h2 {
+        margin-bottom: 20px;
+    }
+    h3 {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-size: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(173, 145, 142);
+        letter-spacing: 3px;
+        padding-top: 30px;
+        margin: 0px;
+    }
+    .about-us-article {
+        width: 100%;
+        background-color: #faf3ee;
+        margin-top: 40px;
+
+        .about-me {
+            display: flex;
+            width: 100%;
+            margin-bottom: 15px;
+            .about-profile-text {
+                width: 50%;
+                margin: auto;
+                margin-left: 20px;
+            }
+            #aboutAlinaImg {
+                background-image: url('../photos/alina/228A8393.jpg');
+                background-size: cover;
+            }
+            #aboutElinImg {
+                background-image: url('../photos/elin/228A8373.jpg');
+                background-size: cover;
+            }
+            .about-profile-img {
+                width: 50%;
+                height: 330px;
+                background-color: white;
+            }
+            h4 {
+                font-family: 'Playfair Display', serif;
+                font-size: 20px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #b1a18e;
+            }
+            p {
+                font-family: 'Playfair Display', serif;
+                letter-spacing: 1px;
+                color: #5b5858;
+            }
+        }
+    }
+}
+.color-italic {
+    color: #fcbfbf;
+    font-style: italic;
+}
+
+footer {
+    margin: 0px;
+    height: 150px;
+    text-align: center;
+    background-color: rgb(255, 251, 249);
+}
+.footer-sm-container {
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.footer-icons {
+    color: #cdb2a1;
+}
+.footer-text {
+    color: #cdb2a1;
+    font-style: italic;
+    a {
+        color: #cdb2a1;
+        &:hover {
+            color: #f2e8e8;
+        }
+    }
+}
+.fas {
+    font-size: 25px;
+}
+.far,
+.fas,
+.fab {
+    margin: 5px;
+}
+.thankyou-page {
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(255, 251, 249);
+    text-align: center;
+    p {
+        font-size: 16px;
+    }
+    a {
+        color: #cdb2a1;
+    }
+}

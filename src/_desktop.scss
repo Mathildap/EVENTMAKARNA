@@ -1,0 +1,49 @@
+// // - - - - - SERVICES / WEDDING - - - - - //
+.wedding-page {
+    width: 80%;
+}
+.wedding-section {
+    width: 100%;
+    .wedding-article {
+        height: 720px;
+        width: 30%;
+    }
+}
+.services,
+.wedding {
+    width: 70%;
+    margin: 0 auto;
+}
+// - - - - - CONTACT PAGE - - - - - //
+.contact-page {
+    width: 100%;
+
+    .contact-article {
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        margin: 50px auto;
+    }
+    .form-sm-container {
+        width: 50%;
+    }
+}
+#aboutImgContainer {
+    width: 50%;
+    height: 450px;
+}
+.about-us-page {
+    .about-us-article {
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+
+        .about-me {
+            margin: 40px;
+
+            .about-profile-img {
+                width: 50%;
+            }
+        }
+    }
+}
